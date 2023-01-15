@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#app {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#task {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#add-task {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.task span {
+  flex-grow: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+}
